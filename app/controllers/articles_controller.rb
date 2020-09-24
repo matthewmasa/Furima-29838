@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+
 
 class ArticlesController < ApplicationController
   def index
@@ -10,6 +10,12 @@ class ArticlesController < ApplicationController
   end
 
   def create
+    @article=Article.new(article_params)
+    if @article.save
+      redirect_to root_path
+    else
+      render :new
+    end
   end
 
   def edit
@@ -20,4 +26,9 @@ class ArticlesController < ApplicationController
 
   def destroy
   end
+
+  private
+   def article_params
+     params.require(:article).permit(:title,:text,:genre_id)
+   end
 end
