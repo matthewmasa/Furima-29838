@@ -38,6 +38,12 @@ RSpec.describe User, type: :model do
        expect(user.eroors[:password]).to be_invalid
      end
 
+     it 'is invalid' do
+       user.password= "aaaaaaa"
+       user.valid?
+       expect(user.errors[:password]). to be_invalid
+     end
+
      it 'is invalid' do #パスワードが5文字以下の場合#
        user.password= "a1234"
        user.valid?
@@ -66,6 +72,18 @@ RSpec.describe User, type: :model do
        user.first_name_kana=nil
        user.invalid?
        expect(user.errors[:first_name_kana]). to be_invalid
+     end
+
+     it 'is invalid' do
+       user.firs_name_kana="あああああ"
+       user.invalid?
+       expect(user.errors[:first_name_kana]). to be_invalid
+     end
+
+     it 'is invalid' do
+       user.family_name_kana="いいいいい"
+       user.valid?
+       expect(user.errors[:family_name_kana]). to be_invalid
      end
 
      it 'is invalid' do
