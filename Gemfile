@@ -68,4 +68,4 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 group :production do
   gem 'rails_12factor'
 end
->>>>>>> af7e2359113f2ee52b6741389faefdfe31f7c88c
+
