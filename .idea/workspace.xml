@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -185,6 +185,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -323,12 +324,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601099192728</updated>
-      <workItem from="1601099194871" duration="17138000" />
+      <workItem from="1601099194871" duration="17511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17138000" />
+    <option name="totallyTimeSpent" value="17511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="89" width="1300" height="766" extended-state="0" />
@@ -548,7 +549,7 @@
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
         </state>
       </provider>
     </entry>
