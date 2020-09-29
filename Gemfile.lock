@@ -293,9 +293,15 @@ DEPENDENCIES
   mysql2 (>= 0.4.4)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.3)
+<<<<<<< HEAD
+  rails-erd (~> 1.6)
+  rails_12factor
+=======
+>>>>>>> 57fcb31528fc62010ad6f865970bd2564af74bbc
   rspec (~> 3.9)
   rspec-rails (~> 4.0, >= 4.0.1)
   rubocop (~> 0.91.1)
+  ruby-graphviz (~> 1.2, >= 1.2.5)
   sass-rails (>= 6)
   selenium-webdriver
   spring
