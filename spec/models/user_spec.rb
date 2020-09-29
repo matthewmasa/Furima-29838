@@ -27,10 +27,10 @@ RSpec.describe User, type: :model do
      end
 
      it "is invalid if email is not uniqueness " do
-       user = user.dup
-       user.email = @user.email.upcase
-       user.invalid?
-       expect(user.errors[:email]).to be_invalid
+       first_user =FactoryBot.create(:user, email: 'test@com')
+       second_user=FactoryBot.build(:user,email: 'test@com')
+       second_user.valid?
+       expect(user.errors[:email]).to include("Email has already used")
      end
 
      it "emailがない時" do
