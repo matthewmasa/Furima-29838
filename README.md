@@ -27,7 +27,7 @@
 | price         | integer | null:false                  |
 | shipping_area_id | integer  | null:false                  |
 | shipping_day_id  | integer  | null:false                  |
-| status        | integer | null:false                  |
+| status_id        | integer | null:false                  |
 
 | Association        |
 |--------------------|
@@ -50,10 +50,10 @@
 | address     |         |                             |
 |-------------|---------|-----------------------------|
 | column      | type    | option                      |
-| user_id     | integer | null:false, foreign_key:true|
+| order      |references| null:false, foreign_key:true|
 | prefecture_id| integer| null:false                  |
 | city        | string  | null:false                  |
-| home_number | integer | null:false                  |
+| home_number | string  | null:false                  |
 | building    | string  |                             |
 | telephone   | string  | null:false                  |
 
