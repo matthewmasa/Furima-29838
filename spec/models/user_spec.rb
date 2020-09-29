@@ -86,7 +86,7 @@ RSpec.describe User, type: :model do
        expect(user.errors[:family_name_kana]). to be_invalid
      end
 
-     it 'is invalid' do
+     it 'is invalid' do #誕生日がない時#
        user.birth_day=nil
        user.valid?
        expect(user.errors{:birth_day}). to be_invalid
