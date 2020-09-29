@@ -75,6 +75,32 @@ RSpec.describe User, type: :model do
        expect(user.errors[:first_name]). to be_invalid
      end
 
+     it '名前がローマ字の場合' do
+       user.first_name="aiueo"
+       user.invalid?
+       expect(user.errors[:first_name]). to be_invalid
+     end
+
+     it '苗字がローマ字の場合' do
+       user.family_name="aiueo"
+       user.invalid?
+       expect(user.errors[:family_name]). to be_invalid
+     end
+
+     it '名前が数字の場合' do
+       user.first_name="12345"
+       user.invalid?
+       expect(user.errors[:first_name]). to be_invalid
+     end
+
+     it '苗字が数字の場合' do
+       user.family_name="12345"
+       user.invalid?
+       expect(user.errors[:family_name]). to be_invalid
+     end
+
+
+
      it '苗字のカナがない場合' do
        user.family_name_kana=nil
        user.valid?
