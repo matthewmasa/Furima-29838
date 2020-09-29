@@ -3,8 +3,12 @@
 |------------|---------|------------|
 | column     | type    | option     |
 | nick_name  | string  | null:false |
-| email      | integer | null:false |
-| password   | integer | null:false |
+| email      | string  | null:false |
+| password   | string  | null:false |
+|family_name | string  | null:false |
+|first_name  | string  | null:false |
+|famiy_name_kana | string  | null:false |
+|first_name_kana | string  | null:false |
 | birthday   | date    | null:false |
 
 | Association      |
@@ -16,18 +20,18 @@
 |---------------|---------|-----------------------------|
 | column        | type    | option                      |
 | category_id   | integer | null:false                  |
-| user_id       | integer | null:false forrign_key:true |
+| user        |references | null:false forrign_key:true |
 | name          | string  | null:false                  |
 | text          | text    | null:false                  |
 | price         | integer | null:false                  |
-| shipping_area | string  | null:false                  |
-| shipping_day  | date    | null:false                  |
+| shipping_area_id | integer  | null:false                  |
+| shipping_day_id  | integer  | null:false                  |
 | status        | boolean | null:false                  |
 
 | Association        |
 |--------------------|
-| ・belongs_to: user |
-| ・has_one: order   |
+| ・belongs_to: user  |
+| ・has_one: order    |
 
 | order  |            |                             |
 |--------|------------|-----------------------------|
@@ -37,16 +41,15 @@
 
 | Association        |
 |--------------------|
-| ・belongs_to: user |
-| ・has_one: address |
-| ・belongs_to:item  |
+| ・belongs_to: user  |
+| ・has_one: address  |
+| ・belongs_to:item   |
 
 
 | address     |         |                             |
 |-------------|---------|-----------------------------|
 | column      | type    | option                      |
-| user_id     | integer | null:false foreign_key:true |
-| prefecture  | string  | null:false                  |
+| prefecture  | integer | null:false                  |
 | city        | string  | null:false                  |
 | home_number | integer | null:false                  |
 | building    | string  |                             |
@@ -54,5 +57,5 @@
 
 | Association         |
 |---------------------|
-| ・belongs_to:adress |
+| ・belongs_to:adress  |
 
