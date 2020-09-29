@@ -36,6 +36,7 @@ group :development, :test do
   gem 'database_cleaner', '~> 1.8', '>= 1.8.5'
   gem 'rubocop', '~> 0.91.1'
   gem 'factory_bot', '~> 6.1'
+  gem 'factory_bot_rails', '~> 6.1'
 end
 
 group :development do
@@ -59,6 +60,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'active_hash', '~> 3.1'
 gem 'devise', '~> 4.7', '>= 4.7.3'
-group :production do
-  gem 'rails_12factor'
-end
+
+
