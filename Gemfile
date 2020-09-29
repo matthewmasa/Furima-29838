@@ -60,16 +60,14 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'active_hash', '~> 3.1'
 gem 'devise', '~> 4.7', '>= 4.7.3'
-<<<<<<< HEAD
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 gem 'rails-erd', '~> 1.6'
 gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'ruby-graphviz', '~> 1.2', '>= 1.2.5'
+gem 'rb-readline', '~> 0.5.5'
 
 group :production do
   gem 'rails_12factor'
 end
-=======
 
->>>>>>> 57fcb31528fc62010ad6f865970bd2564af74bbc
 
