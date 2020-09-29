@@ -99,6 +99,18 @@ RSpec.describe User, type: :model do
        expect(user.errors[:family_name]). to be_invalid
      end
 
+     it '名前が半角の場合' do
+       user.first_name="ﾔﾏﾀﾞ"
+       user.invalid?
+       expect(user.errors[:first_name]). to be_invalid
+     end
+
+     it '苗字が半角の場合' do
+       user.family_name="ﾀﾛｳ"
+       user.invalid?
+       expect(user.errors[:family_name]). to be_invalid
+     end
+
 
 
      it '苗字のカナがない場合' do
