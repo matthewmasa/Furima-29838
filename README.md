@@ -13,20 +13,21 @@
 
 | Association      |
 |------------------|
-| ・has_many:items |
-| ・has_one:orders |
+| ・has_many:items  |
+| ・has_many:orders |
 
 | item_table    |         |                             |
 |---------------|---------|-----------------------------|
 | column        | type    | option                      |
 | category_id   | integer | null:false                  |
+|delivery_fee_id| integer | null:false                  |
 | user        |references | null:false forrign_key:true |
 | name          | string  | null:false                  |
 | text          | text    | null:false                  |
 | price         | integer | null:false                  |
 | shipping_area_id | integer  | null:false                  |
 | shipping_day_id  | integer  | null:false                  |
-| status        | boolean | null:false                  |
+| status        | integer | null:false                  |
 
 | Association        |
 |--------------------|
@@ -49,13 +50,14 @@
 | address     |         |                             |
 |-------------|---------|-----------------------------|
 | column      | type    | option                      |
-| prefecture  | integer | null:false                  |
+| user_id     | integer | null:false, foreign_key:true|
+| prefecture_id| integer| null:false                  |
 | city        | string  | null:false                  |
 | home_number | integer | null:false                  |
 | building    | string  |                             |
-| telephone   | integer | null:false                  |
+| telephone   | string  | null:false                  |
 
 | Association         |
 |---------------------|
-| ・belongs_to:adress  |
+| ・belongs_to:order   |
 
