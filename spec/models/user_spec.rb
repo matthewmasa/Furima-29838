@@ -33,7 +33,7 @@ RSpec.describe User, type: :model do
        expect(user.errors[:email]).to include("Email has already used")
      end
 
-     it "emailがない時" do
+     it "emailに@がない時" do
        user.email = nil
        user.valid?
        expect(user.errors.full_messages).to include("Email can't be blank")
