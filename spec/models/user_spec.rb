@@ -34,7 +34,7 @@ RSpec.describe User, type: :model do
      end
 
      it "emailに@がない時" do
-       user.email = nil
+       user.email = email.com
        user.valid?
        expect(user.errors.full_messages).to include("Email can't be blank")
      end
