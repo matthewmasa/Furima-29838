@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 class ItemController < ::ApplicationController
-  before_action :set_item, only[:new,:index,:create,:show,:edit,:update,:destroy]
+  before_action :set_item, only[:show,:edit]
   before_action :
   def index
     @items=Item.all.order(created_at:"DESC")
@@ -46,9 +46,12 @@ class ItemController < ::ApplicationController
   end
 
   private
-   def set_item
+    def item_params
      params.require(:item).permit(:image,:name,:content,:delivery_fee_id,:genre_id,:shipping_area_id,:shipping_day_id,
                                   :status_id,:price)
-   end
+    end
+    def set_item
+      @item=Item.find_by(params[:id])
+    end
  end
 
