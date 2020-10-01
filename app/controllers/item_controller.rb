@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 class ItemController < ::ApplicationController
   before_action :set_item, only[:show,:edit]
-  before_action :
+  before_action :authenticate_user!, only:[:create, :edit, :update, :show, :destroy]
   def index
     @items=Item.all.order(created_at:"DESC")
   end
@@ -48,7 +48,7 @@ class ItemController < ::ApplicationController
   private
     def item_params
      params.require(:item).permit(:image,:name,:content,:delivery_fee_id,:genre_id,:shipping_area_id,:shipping_day_id,
-                                  :status_id,:price)
+                                  :status_id,:price).merge(user_id: current_user.id)
     end
     def set_item
       @item=Item.find_by(params[:id])

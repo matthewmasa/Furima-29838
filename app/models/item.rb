@@ -1,5 +1,6 @@
 
 class Item < ApplicationRecord
+  extend ActiveHash::Associations::ActiveRecordExtensions
   belongs_to :user
   has_one    :order
 
@@ -16,7 +17,7 @@ class Item < ApplicationRecord
   validates :price, presence: true, numericality: {greater_than_or_equal_to: 300, less_than: 9999999}
   validates :price, presence: true, format: {with:/\A[0-9]+\z/, imessage: "半角数字のみで入力してください"}
   validates :image, presence: true
-  validates :shooing_area_id,:shipping_day_id,:delivery_fee_id,:genre_id, presence: true,
+  validates :shipping_area_id,:shipping_day_id,:delivery_fee_id,:genre_id, presence: true,
              numericality: { only_integer: true, greater_than: 0}
 
 
