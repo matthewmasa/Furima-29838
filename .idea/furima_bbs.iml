@@ -1336,6 +1336,30 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="rb-readline (vbundled(0.5.5)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/bench" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/examples" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/bench" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/examples" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/bench" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="regexp_parser (vbundled(1.8.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
