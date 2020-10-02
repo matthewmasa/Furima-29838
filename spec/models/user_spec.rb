@@ -10,7 +10,9 @@ RSpec.describe User, type: :model do
 
 
   describe '新規登録' do
-     context '新規登録ができた時'
+   context '新規登録ができた時'
+     it "全ての情報が有効だった時に登録が可能となる" do
+      expect(user).to be_valid
      it "nicknameが空では登録できない時" do
        @user.nickname = nil
        @user.valid?
