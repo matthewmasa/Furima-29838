@@ -13,13 +13,13 @@ RSpec.describe User, type: :model do
    context '新規登録ができた時'
      it "全ての情報が有効だった時に登録が可能となる" do
       expect(user).to be_valid
+  describe '新規登録ができないケースの書き出し' do
+    contenxt '新規登録できない時' 
      it "nicknameが空では登録できない時" do
        @user.nickname = nil
        @user.valid?
        expect(@user.errors.full_messages).to include("Nickname can't be blank")
      end
-    describe '新規登録ができないケースの書き出し' do
-     contenxt '新規登録できない時' 
      it "emailが空では登録できない時" do
        @user.email = nil
        @user.valid?
