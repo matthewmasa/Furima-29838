@@ -1,5 +1,5 @@
-current directory: /Users/ogiwaramasatoshi/Furima_app/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200923-91282-1h9e4k1.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl@1.1/lib
+current directory: /Users/ogiwaramasatoshi/Furima-29838/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20200929-15635-ss65a2.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl@1.1/lib
 checking for rb_absint_size()... yes
 checking for rb_absint_singlebit_p()... yes
 checking for rb_wait_for_single_fd()... yes
@@ -27,10 +27,10 @@ Setting rpath to /usr/local/Cellar/mysql/8.0.19/lib
 -----
 creating Makefile
 
-current directory: /Users/ogiwaramasatoshi/Furima_app/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
+current directory: /Users/ogiwaramasatoshi/Furima-29838/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
 make "DESTDIR=" clean
 
-current directory: /Users/ogiwaramasatoshi/Furima_app/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
+current directory: /Users/ogiwaramasatoshi/Furima-29838/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
 make "DESTDIR="
 compiling client.c
 compiling infile.c
@@ -39,6 +39,6 @@ compiling result.c
 compiling statement.c
 linking shared-object mysql2/mysql2.bundle
 
-current directory: /Users/ogiwaramasatoshi/Furima_app/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
+current directory: /Users/ogiwaramasatoshi/Furima-29838/furima_bbs/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20200923-91282-v0flkt/mysql2
+/usr/bin/install -c -m 0755 mysql2.bundle ./.gem.20200929-15635-1to5vvz/mysql2

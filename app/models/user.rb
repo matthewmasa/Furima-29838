@@ -19,9 +19,9 @@ class User < ApplicationRecord
   end
   with_options presence: true, format:
       { with: /\A[\p{katakana} ー－&&[^ -~｡-ﾟ]]+\z/, message: "全角カタカナのみで入力して下さい"} do
-    validates :first_name_katakana
-    validates :family_name_katakana
+    validates :first_name_kana
+    validates :family_name_kana
   end
-  validates :birthday, presence: true
+  validates :birth_day, presence: true
 
 end
