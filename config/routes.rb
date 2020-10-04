@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
-  get 'item/index'
-  get 'item/new'
-  get 'item/create'
-  get 'item/update'
-  get 'item/destroy'
-  resources :comments
   devise_for :users
+  root to: "items#index"
 
-end
+  resources :items do
+  resources :comments
+
+  end
+ end

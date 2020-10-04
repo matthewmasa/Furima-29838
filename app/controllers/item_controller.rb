@@ -1,6 +1,6 @@
 # frozen_string_literal: true
-class ItemController < ::ApplicationController
-  before_action :set_item, only[:show,:edit]
+class ItemController < ApplicationController
+  before_action :set_item, only: [:show,:edit]
   before_action :authenticate_user!, only:[:create, :edit, :update, :show, :destroy]
   def index
     @items=Item.all.order(created_at:"DESC")
