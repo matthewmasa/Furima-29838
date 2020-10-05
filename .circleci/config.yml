@@ -1,0 +1,102 @@
+version: 2
+
+references:
+  default: &defaults
+    working_directory: ~/furima_bbs
+  restore_gem_cache: &restore_gem_cache
+    restore_cache:
+      keys:
+        - v1-dependencies-{{ checksum "Gemfile.lock" }}
+        - v1-dependencies
+
+jobs:
+  build:
+    <<: *defaults
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+    environment:
+      BUNDLER_VERSION: 2.1.4
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - *restore_gem_cache
+      - run:
+          name: Configure Bundler
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
+      - run:
+          name: Install dependencies
+          command: |
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+
+  rspec:
+    <<: *defaults
+    environment:
+      RAILS_ENV: test
+      DB_HOST: 127.0.0.1
+      DB_PORT: 3306
+      DB_USERNAME: 'root'
+      DB_PASSWORD: ''
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+      - image: circleci/mysql:8.0.19
+    steps:
+      - checkout
+      - *restore_gem_cache
+      - run:
+          name: Configure Bundler
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
+      - run: bundle --path vendor/bundle
+      - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://127.0.0.1:3306 -timeout 120s
+      - run:
+          name: Setup Database
+          command: bundle exec rails db:create db:schema:load
+      - run:
+          name: Test with Rspec
+          command: |
+            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | \
+              circleci tests split --split-by=timings)"
+            bundle exec rspec \
+              --format progress \
+              --profile \
+              $TEST_FILES
+  rubocop:
+    <<: *defaults
+    docker:
+      - image: circleci/ruby:2.6.3-node-browsers
+    steps:
+      - checkout
+      - *restore_gem_cache
+      - run:
+          name: Configure Bundler
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
+      - run: bundle --path vendor/bundle
+      - run:
+          name: Lint with Rubocop
+          command: bundle exec rubocop
+
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
+      - rspec:
+          requires:
+            - build
+      - rubocop:
+          requires:
+            - build
