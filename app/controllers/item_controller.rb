@@ -1,17 +1,18 @@
 # frozen_string_literal: true
+
 class ItemController < ::ApplicationController
-  before_action :set_item, only[:show,:edit]
-  before_action :authenticate_user!, only:[:create, :edit, :update, :show, :destroy]
+  before_action :set_item, only[:show, :edit]
+  before_action :authenticate_user!, only: %i[create edit update show destroy]
   def index
-    @items=Item.all.order(created_at:"DESC")
+    @items = Item.all.order(created_at: 'DESC')
   end
 
   def new
-    @item=Item.new(item_params)
+    @item = Item.new(item_params)
   end
 
   def create
-    @item=Item.new(item_params)
+    @item = Item.new(item_params)
     if @item.create
       redirect_to 'root_path'
     else
@@ -19,16 +20,12 @@ class ItemController < ::ApplicationController
     end
   end
 
-  def show
+  def show; end
 
-  end
-
-  def edit
-
-  end
+  def edit; end
 
   def update
-    @item=Item.update(item_params)
+    @item = Item.update(item_params)
     if @item.update
       redirect_to 'item_path'
     else
@@ -37,7 +34,7 @@ class ItemController < ::ApplicationController
   end
 
   def destroy
-    @item=Item.destroy(item_params)
+    @item = Item.destroy(item_params)
     if @item.destroy
       redirect_to 'item_path'
     else
@@ -46,12 +43,13 @@ class ItemController < ::ApplicationController
   end
 
   private
-    def item_params
-     params.require(:item).permit(:image,:name,:text,:delivery_fee_id,:category_id,:shipping_area_id,:shipping_day_id,
-                                  :status_id,:price).merge(user_id: current_user.id)
-    end
-    def set_item
-      @item=Item.find_by(params[:id])
-    end
- end
 
+  def item_params
+    params.require(:item).permit(:image, :name, :text, :delivery_fee_id, :category_id, :shipping_area_id,
+                                 :shipping_day_id, :status_id, :price).merge(user_id: current_user.id)
+  end
+
+  def set_item
+    @item = Item.find_by(params[:id])
+  end
+end

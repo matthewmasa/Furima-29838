@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 class Address < ApplicationRecord
-  #extend ActiveHash::Associations::ActiveRecordExtensions#
+  # extend ActiveHash::Associations::ActiveRecordExtensions#
   belongs_to :order
 end
 
-#this file isオーダーに紐づくモデルの為後々利用する#
+# this file isオーダーに紐づくモデルの為後々利用する#

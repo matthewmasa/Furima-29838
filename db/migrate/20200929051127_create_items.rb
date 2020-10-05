@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateItems < ActiveRecord::Migration[6.0]
   def change
     create_table :items do |t|
@@ -10,8 +12,7 @@ class CreateItems < ActiveRecord::Migration[6.0]
       t.integer :status_id,        null: false
       t.text    :text,             null: false
 
-      t.references  :user, foreign_key: true
-
+      t.references :user, foreign_key: true
 
       t.timestamps
     end

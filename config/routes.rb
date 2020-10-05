@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get 'item/index'
   get 'item/new'
@@ -6,5 +8,4 @@ Rails.application.routes.draw do
   get 'item/destroy'
   resources :comments
   devise_for :users
-
 end
