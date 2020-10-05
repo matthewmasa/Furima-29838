@@ -1,0 +1,125 @@
+require: rubocop-rspec
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/*'
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+    - 'db/seeds/**/*'
+    - 'log/**/*'
+
+AsciiComments:
+  Enabled: false
+
+# Rails
+Rails:
+  Enabled: true
+  Exclude:
+    - 'lib/**/*'
+Rails/FilePath:
+  Enabled: false
+###Rails/UnknownEnv:
+##  Environments:
+##    - production
+##    - development
+##    - test
+##Rails/CreateTableWithTimestamps:
+##  Enabled: true
+#Rails/SkipsModelValidations:
+#  Enabled: false
+#Rails/HasManyOrHasOneDependent:
+#  Enabled: false
+Rails/HttpStatus:
+  Enabled: false
+
+# Metrics
+Metrics/ClassLength:
+  Max: 300
+Metrics/LineLength:
+  Max: 120
+  Exclude:
+    - 'spec/**/*'
+    - 'db/migrate/*'
+    - 'config/schedule/**/*'
+Metrics/MethodLength:
+  Max: 30
+  Exclude:
+    - 'db/migrate/*'
+Metrics/AbcSize:
+  Max: 25
+  Exclude:
+    - 'db/migrate/*'
+Metrics/PerceivedComplexity:
+  Max: 10
+Metrics/CyclomaticComplexity:
+  Max: 10
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'spec/**/*'
+
+# Layout
+Layout/ParameterAlignment:
+  EnforcedStyle: with_fixed_indentation
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+
+# Style
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - 'spec/**/*'
+Style/ConditionalAssignment:
+  Enabled: false
+Style/DoubleNegation:
+  Enabled: false
+Style/EmptyElse:
+  EnforcedStyle: empty
+Style/FormatStringToken:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Style/NumericPredicate:
+  Enabled: false
+Style/SignalException:
+  EnforcedStyle: semantic
+
+# Rspec
+RSpec/ExampleLength:
+  Max: 15
+  Exclude:
+    - 'spec/features/*'
+RSpec/BeEql:
+  Enabled: false
+RSpec/DescribeClass:
+  Enabled: false
+RSpec/ContextWording:
+  Enabled: false
+RSpec/EmptyExampleGroup:
+  Enabled: false
+RSpec/EmptyLineAfterHook:
+  Enabled: false
+RSpec/EmptyLineAfterFinalLet:
+  Enabled: false
+RSpec/EmptyLineAfterSubject:
+  Enabled: false
+RSpec/ExpectChange:
+  Enabled: false
+RSpec/NestedGroups:
+  Enabled: false
+  Max: 20
+RSpec/HookArgument:
+  EnforcedStyle: each
+RSpec/ImplicitSubject:
+  Enabled: false
+RSpec/LetSetup:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/PredicateMatcher:
+  Enabled: false
+RSpec/RepeatedDescription:
+  Enabled: false
+RSpec/RepeatedExample:
+  Enabled: false
