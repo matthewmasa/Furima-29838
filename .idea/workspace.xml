@@ -2,278 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01479fd3-d298-4f3b-a018-2be3d4e4dd07" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.circleci/config.yml/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.circleci/config.yml~57fcb31528fc62010ad6f865970bd2564af74bbc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/cache/rails_12factor-0.0.3.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/cache/rails_serve_static_assets-0.0.5.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/cache/rails_stdout_logging-0.0.5.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/cache/rb-readline-0.5.5.gem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/lib/rails_12factor.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/lib/rails_12factor/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/rails_12factor.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/test/helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_12factor-0.0.3/test/test_rails_12factor.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/gemfiles/3.2.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/gemfiles/4.1.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/gemfiles/4.2.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/lib/rails_serve_static_assets.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/lib/rails_serve_static_assets/railtie.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/lib/rails_serve_static_assets/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/rails_serve_static_assets.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/integration/static_file_service_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/assets/images/schneems.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/assets/javascripts/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/assets/javascripts/foo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/assets/stylesheets/application.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/assets/stylesheets/foo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/controllers/authenticated_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/controllers/pages_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/helpers/application_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/helpers/authenticated_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/views/authenticated/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/views/layouts/application.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/app/views/pages/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/environments/development.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/environments/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/initializers/inflections.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/initializers/mime_types.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/initializers/secret_token.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/initializers/session_store.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/locales/devise.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/locales/es.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/perf.rake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/assets/application-5f55f638b632759d9c9113417c3ac6bd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/assets/application-5f55f638b632759d9c9113417c3ac6bd.css.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/assets/application-89f8f774b6fb6783dfccc79d4103f256.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/assets/application-89f8f774b6fb6783dfccc79d4103f256.js.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/assets/manifest-7bf37a2cd54094ac4d4308b706454b81.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/assets/schneems-cb0905b917bde936182e153558f54a5f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/script/rails" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/Appraisals" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/gemfiles/rails_3.0.x.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/gemfiles/rails_3.1.x.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/gemfiles/rails_3.2.x.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/gemfiles/rails_4.0.x.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/gemfiles/rails_4.1.x.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/gemfiles/rails_4.2.x.gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/init.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/lib/rails_stdout_logging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/lib/rails_stdout_logging/rails.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/lib/rails_stdout_logging/rails2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/lib/rails_stdout_logging/rails3.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/lib/rails_stdout_logging/railtie.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/lib/rails_stdout_logging/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/rails_stdout_logging.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/app/controllers/application_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/app/controllers/bar_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/app/helpers/application_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/app/views/bar/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config.ru" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/application.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/boot.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/database.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/environment.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/environments/development.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/environments/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/environments/test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/initializers/backtrace_silencers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/initializers/inflections.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/initializers/mime_types.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/initializers/secret_token.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/initializers/session_store.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/locales/en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/locales/es.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/config/routes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/422.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/javascripts/application.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/javascripts/controls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/javascripts/dragdrop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/javascripts/effects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/javascripts/prototype.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/javascripts/rails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/public/stylesheets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/dummy/script/rails" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/integration/controller_logging_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/rails_stdout_logging_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/support/integration_case.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_stdout_logging-0.0.5/test/test_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/CHANGES" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/bench/_rl_adjust_point.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/examples/example_readline.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/examples/example_readline_with_completion.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/examples/tinyirb.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/lib/rb-readline.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/lib/rbreadline.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/lib/rbreadline/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/lib/readline.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/rb-readline.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/setup.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test/support/filesystem_completion_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test/test_completion.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test/test_filename_completion_proc.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test/test_history.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test/test_rbreadline.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rb-readline-0.5.5/test/test_readline.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/specifications/rails_12factor-0.0.3.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/specifications/rails_serve_static_assets-0.0.5.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/specifications/rails_stdout_logging-0.0.5.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/specifications/rb-readline-0.5.5.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/furima_bbs.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/item_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/item_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/helpers/article_helper_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/article_request_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/rails_serve_static_assets-0.0.5/test/rails_app/db/test.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bcrypt-3.1.16/bcrypt_ext.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bcrypt-3.1.16/bcrypt_ext.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bcrypt-3.1.16/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bcrypt-3.1.16/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bindex-0.8.1/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bindex-0.8.1/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bindex-0.8.1/skiptrace/internal/cruby.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bindex-0.8.1/skiptrace/internal/cruby.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bootsnap-1.4.8/bootsnap/bootsnap.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bootsnap-1.4.8/bootsnap/bootsnap.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bootsnap-1.4.8/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/bootsnap-1.4.8/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/byebug-11.1.3/byebug/byebug.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/byebug-11.1.3/byebug/byebug.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/byebug-11.1.3/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/byebug-11.1.3/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.13.1/ffi_c.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.13.1/ffi_c.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.13.1/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/ffi-1.13.1/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/msgpack-1.3.3/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/msgpack-1.3.3/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/msgpack-1.3.3/msgpack/msgpack.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/msgpack-1.3.3/msgpack/msgpack.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/mysql2-0.5.3/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/mysql2-0.5.3/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/mysql2-0.5.3/mysql2/mysql2.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/mysql2-0.5.3/mysql2/mysql2.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nio4r-2.5.4/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nio4r-2.5.4/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nio4r-2.5.4/nio4r_ext.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nio4r-2.5.4/nio4r_ext.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nokogiri-1.10.10/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nokogiri-1.10.10/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nokogiri-1.10.10/mkmf.log" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nokogiri-1.10.10/mkmf.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nokogiri-1.10.10/nokogiri/nokogiri.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/nokogiri-1.10.10/nokogiri/nokogiri.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/puma-4.3.6/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/puma-4.3.6/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/puma-4.3.6/puma/puma_http11.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/puma-4.3.6/puma/puma_http11.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/sassc-2.4.0/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/sassc-2.4.0/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/sassc-2.4.0/sassc/libsass.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/sassc-2.4.0/sassc/libsass.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/websocket-driver-0.7.3/gem_make.out" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/websocket-driver-0.7.3/gem_make.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/websocket-driver-0.7.3/websocket_mask.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/extensions/universal-darwin-19/2.6.0/websocket-driver-0.7.3/websocket_mask.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.16/ext/mri/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.16/ext/mri/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/ext/bootsnap/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/ext/bootsnap/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/ext/bootsnap/bootsnap.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/ext/bootsnap/bootsnap.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/ext/bootsnap/bootsnap.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/ext/bootsnap/bootsnap.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/lib/bootsnap/bootsnap.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.8/lib/bootsnap/bootsnap.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/breakpoint.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/breakpoint.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/byebug.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/byebug.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/byebug.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/byebug.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/context.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/context.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/locker.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/locker.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/threads.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/ext/byebug/threads.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/lib/byebug/byebug.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/byebug-11.1.3/lib/byebug/byebug.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/ffi_c.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/ffi_c.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/msgpack-1.3.3/ext/msgpack/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/msgpack-1.3.3/ext/msgpack/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/client.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/client.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/infile.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/infile.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/mysql2.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/mysql2.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/mysql2_ext.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/mysql2_ext.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/result.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/result.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/statement.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/ext/mysql2/statement.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/lib/mysql2/mysql2.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.3/lib/mysql2/mysql2.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.4/ext/nio4r/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_document.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_document.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_element_description.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_element_description.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_entity_lookup.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_entity_lookup.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_sax_parser_context.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_sax_parser_context.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_sax_push_parser.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/html_sax_push_parser.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/nokogiri.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/nokogiri.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/nokogiri.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/nokogiri.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_attr.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_attr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_attribute_decl.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_attribute_decl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_cdata.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_cdata.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_comment.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_comment.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_document.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_document.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_document_fragment.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_document_fragment.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_dtd.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_dtd.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_element_content.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_element_content.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_element_decl.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_element_decl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_encoding_handler.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_encoding_handler.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_entity_decl.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_entity_decl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_entity_reference.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_entity_reference.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_io.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_io.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_namespace.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_namespace.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_node.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_node.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_node_set.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_node_set.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_processing_instruction.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_processing_instruction.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_reader.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_reader.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_relax_ng.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_relax_ng.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_sax_parser.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_sax_parser.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_sax_parser_context.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_sax_parser_context.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_sax_push_parser.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_sax_push_parser.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_schema.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_schema.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_syntax_error.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_syntax_error.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_text.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_text.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_xpath_context.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xml_xpath_context.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xslt_stylesheet.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/ext/nokogiri/xslt_stylesheet.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/lib/nokogiri/nokogiri.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/nokogiri-1.10.10/lib/nokogiri/nokogiri.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/http11_parser.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/http11_parser.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/io_buffer.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/io_buffer.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/mini_ssl.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/mini_ssl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/puma_http11.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/puma_http11.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/puma_http11.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/ext/puma_http11/puma_http11.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/lib/puma/puma_http11.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/puma-4.3.6/lib/puma/puma_http11.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver/websocket_mask.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver/websocket_mask.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver/websocket_mask.o" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver/websocket_mask.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/lib/websocket_mask.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.3/lib/websocket_mask.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/items/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/items/edit.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -286,13 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/item_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+            <state relative-caret-position="356">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/items/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#64#0#RHTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -310,15 +61,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/requests/item_request_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/404.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-740" />
@@ -333,15 +75,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/images/test_image.png">
           <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -382,6 +115,7 @@
         <option value="$PROJECT_DIR$/spec/models/item_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/items.rb" />
         <option value="$PROJECT_DIR$/app/controllers/item_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/items/edit.html.erb" />
       </list>
     </option>
   </component>
@@ -419,6 +153,19 @@
               <item name="~/Furima-29838/furima_bbs" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="controllers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="furima_bbs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Furima-29838/furima_bbs" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="furima_bbs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Furima-29838/furima_bbs" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="items" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="furima_bbs" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -485,7 +232,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34720000" />
+    <option name="totallyTimeSpent" value="35038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="286" y="23" width="1155" height="859" extended-state="0" />
@@ -506,7 +253,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.47588006" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32937685" />
-      <window_info anchor="bottom" id="Favorites" order="13" weight="0.3298292" />
+      <window_info anchor="bottom" id="Favorites" order="13" weight="0.3285528" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -597,20 +344,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/items/new.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-620">
-          <folding>
-            <element signature="e#0#64#0#RHTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20201001080247_create_addresses.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -726,10 +459,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/item_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="356">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/orders/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/items/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="66" column="52" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#64#0#RHTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
