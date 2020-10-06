@@ -45,6 +45,12 @@ class ItemController < ApplicationController
     end
   end
 
+  def move_to_index
+    unless user_signed_in?
+     redirect_to :index
+    end
+  end
+
   private
     def item_params
      params.require(:item).permit(:image,:name,:text,:delivery_fee_id,:category_id,:shipping_area_id,:shipping_day_id,
