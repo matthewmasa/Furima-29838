@@ -11,7 +11,8 @@ FactoryBot.define do
     shipping_day_id {3}
     status_id       {2}
 
-    image {File.open("#{Rails.root}/public/images/test_image.png")}
+    # trait  :image  do
+      image {File.open("#{Rails.root}/public/images/test_image.png")}
 
     # after(:build) do |item|
     # item.image.attach(io: File.open('public/images/test_image.png'), filename: 'test_image.png')

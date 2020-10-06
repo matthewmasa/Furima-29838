@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 class ItemController < ::ApplicationController
-  before_action :set_item, only[:show, :edit]
-  before_action :authenticate_user!, only: %i[create edit update show destroy]
+  before_action :set_item, only %i[:show, :edit]
+  before_action :authenticate_user!, only %i[:create, :edit, :update, :show, :destroy]
   def index
     @items = Item.all.order(created_at: 'DESC')
   end
@@ -20,9 +20,11 @@ class ItemController < ::ApplicationController
     end
   end
 
-  def show; end
+  def show
+  end
 
-  def edit; end
+  def edit
+  end
 
   def update
     @item = Item.update(item_params)
