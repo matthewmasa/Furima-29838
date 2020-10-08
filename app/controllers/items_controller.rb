@@ -1,19 +1,20 @@
 # frozen_string_literal: true
-class ItemController < ::ApplicationController
-  before_action :set_item, only[:show,:edit]
-  before_action :authenticate_user!, only:[:create, :edit, :update, :show, :destroy]
+class ItemsController < ApplicationController
+  before_action :set_item, only: [:show,:edit]
+  before_action :authenticate_user!, only:[:create, :edit, :update,:destroy]
+  # before_action :move_to_index, except: [:index, :show]
   def index
-    @items=Item.all.order(created_at:"DESC")
+    @items = Item.includes(:user).order(created_at:"DESC")
   end
 
   def new
-    @item=Item.new(item_params)
+    @item = Item.new
   end
 
   def create
-    @item=Item.new(item_params)
-    if @item.create
-      redirect_to 'root_path'
+    @item = Item.new(item_params)
+    if @item.save
+      redirect_to root_path
     else
       render :new
     end
@@ -45,6 +46,10 @@ class ItemController < ::ApplicationController
     end
   end
 
+  def move_to_index
+    redirect_to action: :index unless user_signed_in?
+  end
+
   private
     def item_params
      params.require(:item).permit(:image,:name,:text,:delivery_fee_id,:category_id,:shipping_area_id,:shipping_day_id,
@@ -53,5 +58,5 @@ class ItemController < ::ApplicationController
     def set_item
       @item=Item.find_by(params[:id])
     end
- end
+  end
 
