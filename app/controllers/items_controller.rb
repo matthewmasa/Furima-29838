@@ -4,17 +4,17 @@ class ItemsController < ApplicationController
   before_action :authenticate_user!, only:[:create, :edit, :update, :show, :destroy]
   # before_action :move_to_index, except: [:index, :show]
   def index
-    @items=Item.includes(:user).order(created_at:"DESC")
+    @items = Item.includes(:user).order(created_at:"DESC")
   end
 
   def new
-    @item=Item.new
+    @item = Item.new
   end
 
   def create
-    @item=Item.new(item_params)
-    if @item.created_at
-      redirect_to 'root_path'
+    @item = Item.new(item_params)
+    if @item.save!
+      redirect_to root_path
     else
       render :new
     end
