@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01479fd3-d298-4f3b-a018-2be3d4e4dd07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -400,15 +399,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602046327540</updated>
-      <workItem from="1602046337080" duration="25032000" />
+      <workItem from="1602046337080" duration="25188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67991000" />
+    <option name="totallyTimeSpent" value="68147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="23" width="1364" height="870" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26399395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -733,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
         </state>
       </provider>
     </entry>

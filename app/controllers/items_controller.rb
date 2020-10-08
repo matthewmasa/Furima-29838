@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 class ItemsController < ApplicationController
-  before_action :set_item, only: [:show,:edit]
+  before_action :set_item, only: [:show,:edit,:index]
   before_action :authenticate_user!, only:[:create, :edit, :update, :show, :destroy]
   # before_action :move_to_index, except: [:index, :show]
   def index
