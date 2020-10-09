@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 class ItemsController < ApplicationController
-  before_action :set_item, only: [:show,:edit]
+  before_action :set_item, only: [:show,:edit,:update]
   before_action :authenticate_user!, only:[:create, :edit, :update,:destroy]
    before_action :move_to_index, except: [:index, :show]
   def index
@@ -29,7 +29,6 @@ class ItemsController < ApplicationController
   end
 
   def update
-    @item=Item.find_by(params[:id])
     if @item.update_attributes(item_params)
        render  :show
     else
