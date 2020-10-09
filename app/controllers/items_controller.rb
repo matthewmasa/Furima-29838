@@ -50,7 +50,7 @@ class ItemsController < ApplicationController
   end
 
   def move_to_show
-    redirect_to action: :show unless user_signed_in?
+    redirect_to action: :show unless user_signed_in? && current_user.id != @item.user.id
   end
 
   private
