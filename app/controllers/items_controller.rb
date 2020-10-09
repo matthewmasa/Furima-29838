@@ -39,14 +39,18 @@ class ItemsController < ApplicationController
 
   def destroy
     if @item.destroy_attributes(item_params)
-      redirect_to 'item_path'
-    else
       render :index
+    else
+      render :show
     end
   end
 
   def move_to_index
     redirect_to action: :index unless user_signed_in?
+  end
+
+  def move_to_show
+    redirect_to action: :show unless user_signed_in?
   end
 
   private
