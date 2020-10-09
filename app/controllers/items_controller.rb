@@ -29,11 +29,11 @@ class ItemsController < ApplicationController
   end
 
   def update
-    @item=Item.update(item_params)
-    if @item.update
-      redirect_to 'item_path'
+    @item=Item.find_by(params[:id])
+    if @item.update_attributes(item_params)
+       render  :show
     else
-      render :index
+      render :edit
     end
   end
 
