@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 class ItemsController < ApplicationController
-  before_action :set_item, only: [:show,:edit]
+  before_action :set_item, only: [:show,:edit,:update,:destroy]
   before_action :authenticate_user!, only:[:create, :edit, :update,:destroy]
-   before_action :move_to_index, except: [:index, :show]
+  before_action :move_to_index, except: [:index, :show]
+  before_action :move_to_show, only: [:edit, :destroy]
   def index
     @items = Item.includes(:user).order(created_at:"DESC")
   end
@@ -29,25 +30,27 @@ class ItemsController < ApplicationController
   end
 
   def update
-    @item=Item.update(item_params)
-    if @item.update
-      redirect_to 'item_path'
+    if @item.update_attributes(item_params)
+       render  :show
     else
-      render :index
+      render :edit
     end
   end
 
-  def destroy
-    @item=Item.destroy(item_params)
-    if @item.destroy
-      redirect_to 'item_path'
-    else
-      render :index
-    end
-  end
+  # def destroy
+  #   if @item.destroy
+  #     render :index
+  #   else
+  #     render :show
+  #   end
+  # end
 
   def move_to_index
     redirect_to action: :index unless user_signed_in?
+  end
+
+  def move_to_show
+    redirect_to action: :show unless user_signed_in? && current_user.id != @item.user.id
   end
 
   private
