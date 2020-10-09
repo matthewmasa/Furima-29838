@@ -37,13 +37,13 @@ class ItemsController < ApplicationController
     end
   end
 
-  # def destroy
-  #   if @item.destroy
-  #     render :index
-  #   else
-  #     render :show
-  #   end
-  # end
+  def destroy
+    if @item.destroy
+      render :index
+    else
+      render :show
+    end
+  end
 
   def move_to_index
     redirect_to action: :index unless user_signed_in?
