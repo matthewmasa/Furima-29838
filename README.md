@@ -56,6 +56,7 @@
 | home_number | string  | null:false                  |
 | building    | string  |                             |
 | telephone   | string  | null:false                  |
+| postal_code | string  | null:false                  |
 
 | Association         |
 |---------------------|
