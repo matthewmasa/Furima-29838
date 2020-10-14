@@ -55,8 +55,14 @@ RSpec.describe OrderAddress, type: :model do
        @order_address.valid?
        expect(@order_address.errors.full_messages).to include("Telephone can't be blank")
      end
+     it '電話番号にハイフンがあったら購入出来ない' do
+       @order_address.telephone= '090-1111-1111'
+       @order_address.valid?
+       expect(@order_address.errors.full_messages).to include("Telephone 例)09012345678")
+     end
+
      it '電話番号が11桁超えていると購入出来ない' do
-       @order_address.telephone= '090111111111'
+       @order_address.telephone='090111111111'
        @order_address.valid?
        expect(@order_address.errors.full_messages).to include("Telephone 例)09012345678")
      end
