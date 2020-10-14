@@ -31,10 +31,10 @@ Rspec.describe OrderAddress, type: :model do
       @order_address.valid?
       expected(@order_address.errors.full_messages). to include("postal_code must include hyphen")
      end
-     it '都道府県を選択していなければ購入出来ない' do
-       @order_address.shipping_area_id=nil
+     it '都道府県のid値を(48)選べば購入出来ない' do
+       @order_address.shipping_area_id= 48
        @order_address.valid?
-       expected(@order_address.errors.full_messages).to include("shipping_area_id can't be blank")
+       expected(@order_address.errors.full_messages).to include("Shipping area must be other than 48")
      end
      it '市町村を選択していなければ購入出来ない' do
        @order_address.city=nil
