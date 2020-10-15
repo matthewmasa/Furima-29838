@@ -51,11 +51,12 @@
 |-------------|---------|-----------------------------|
 | column      | type    | option                      |
 | order      |references| null:false, foreign_key:true|
-| prefecture_id| integer| null:false                  |
+| shipping_area_id| integer| null:false               |
 | city        | string  | null:false                  |
 | home_number | string  | null:false                  |
 | building    | string  |                             |
 | telephone   | string  | null:false                  |
+| postal_code | string  | null:false                  |
 
 | Association         |
 |---------------------|
