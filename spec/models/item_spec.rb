@@ -96,5 +96,4 @@ RSpec.describe Item, type: :model do
       @item.valid?
       expect(@item.errors.full_messages). to include("Category can't be blank")
     end
-  #pending "add some examples to (or delete) #{__FILE__}"#
 end
