@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class OrdersController < ApplicationController
+  before_action :set_item, only: [:index,:create,:pay_item]
   before_action :authenticate_user!, only: :index
   def index
     @orders=OrderAddress.new
@@ -29,7 +30,6 @@ class OrdersController < ApplicationController
 
 
    def pay_item
-     @item=Item.find(params[:item_id])
      Payjp.api_key = ENV['PAYJP_SECRET_KEY']
      Payjp::Charge.create(
          amount: @item.price,
