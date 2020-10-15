@@ -1,18 +1,18 @@
 # frozen_string_literal: true
 
 class OrdersController < ApplicationController
-  before_action :authenticate_user!
-  before_action :move_to_index, only: :index
-  before_action :move_to_signed_in,
+  before_action :set_item, only: [:index,:create]
+  before_action :authenticate_user!, only: :index
   def index
     @orders=OrderAddress.new
   end
 
   def create
+    # binding.pry
     @orders=OrderAddress.new(order_params)
     if @orders.valid?
-      @orders.save
-      pay_item
+       @orders.save
+       pay_item
       redirect_to root_path
     else
       render :index
@@ -21,21 +21,14 @@ class OrdersController < ApplicationController
 
   private
    def order_params
-     params.require(:order_address).permit(:shipping_area_id,:city,:home_number,:building,:telephone,:token,:postal_code)
-                           .merge(item_id: params[:item_id],user_id: current_user.id)
+     params.require(:order_address).permit(:shipping_area_id,:city,:home_number,:building,:telephone,:postal_code)
+                           .merge(item_id: params[:item_id],user_id: current_user.id, token: params[:token])
    end
    def set_item
-     @item=Item.find_by(params[:id])
+     @item=Item.find(params[:item_id])
    end
 
 
-
-   def move_to_signed_in
-     unless user_signed_in?
-      #サインインしていないユーザーはログインページが表示される
-      redirect_to  '/users/sign_in'
-     end
-   end
 
    def pay_item
      @item=Item.find(params[:item_id])
@@ -45,5 +38,4 @@ class OrdersController < ApplicationController
          card:   order_params[:token],
          currency: 'jpy')
    end
-
 end
