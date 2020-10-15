@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
 class OrdersController < ApplicationController
-  before_action :authenticate_user!
-  before_action :move_to_index, only: [:index, :create]
+  before_action :move_to_index, only: :index
   before_action :move_to_signed_in, except: [:index]
   def index
     @orders=OrderAddress.new
@@ -27,6 +26,11 @@ class OrdersController < ApplicationController
    def set_item
      @item=Item.find_by(params[:id])
    end
+
+  def move_to_index
+    @item = Item.find(params[:item_id])
+    redirect_to root_path if current_user.id == @item.user_id || Order.exists?(item_id: @item.id)
+  end
 
 
    def move_to_signed_in
