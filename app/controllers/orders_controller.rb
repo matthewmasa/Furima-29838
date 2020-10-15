@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class OrdersController < ApplicationController
-  before_action :authenticate_user!
   before_action :move_to_index, only: [:index, :create]
   before_action :set_item, only:[:index,:create]
   def index
