@@ -59,7 +59,7 @@ class ItemsController < ApplicationController
                                   :status_id,:price).merge(user_id: current_user.id)
     end
     def set_item
-      @item=Item.find_by(params[:id])
+      @item=Item.find(params[:id])
     end
   end
 

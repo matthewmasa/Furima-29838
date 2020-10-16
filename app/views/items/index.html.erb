@@ -134,11 +134,11 @@
             <div class='item-img-content'>
               <%= image_tag item.image, class: "item-img" %>
           <%# 商品が売れていればsold outを表示しましょう %>
-              <%if item.order%>
-                <div class='sold-out'>
-                  <span>Sold Out!!</span>
-                </div>
-              <%end %>
+              <%#if item.order==nil? %>
+<!--                <div class='sold-out'>-->
+<!--                  <span>Sold Out!!</span>-->
+<!--                </div>-->
+              <%#end %>
                 </div>
 
           <div class='item-info'>
@@ -155,9 +155,10 @@
           </div>
         <% end %>
       <%end %>
+      <%end %>
       </li>
-
-      <% else%>
+      <%# else%>
+        <% if @items.length == 0%>
       <li class='list'>
         <%= link_to '#' do %>
           <%= image_tag "https://s3-ap-northeast-1.amazonaws.com/mercarimaster/uploads/captured_image/content/10/a004.png", class: "item-img" %>
@@ -173,6 +174,7 @@
               </div>
             </div>
            </div>
+        <%end %>
           </li>
         <% end %>
     </ul>
@@ -185,5 +187,4 @@
     <%= image_tag 'camera.png' , size: '185x50' ,class: "purchase-btn-icon" %>
   </a>
 </div>
-<%end %>
 <%= render "shared/footer" %>
