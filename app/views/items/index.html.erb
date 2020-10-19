@@ -134,12 +134,12 @@
             <div class='item-img-content'>
               <%= image_tag item.image, class: "item-img" %>
           <%# 商品が売れていればsold outを表示しましょう %>
-              <%if item.order==nil? %>
+              <%if item.order %>
                 <div class='sold-out'>
                   <span>Sold Out!!</span>
-            </div>
-              <%end %>
                 </div>
+              <%end %>
+            </div>
 
           <div class='item-info'>
             <h3 class='item-name'>
@@ -157,7 +157,6 @@
       <%end %>
       <%end %>
       </li>
-      <%# else%>
         <% if @items.length == 0%>
       <li class='list'>
         <%= link_to '#' do %>
